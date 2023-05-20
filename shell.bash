@@ -1,24 +1,9 @@
 #!/bin/bash
-# Tooling to minimize my personal suffering
 
-# sourcing
-
-# Aliases
-alias editzsh="vim ~/.bashrc"
-alias editzsh="vim ~/.zshrc"
-alias catbsh="cat ~/.bashrc"
-alias catzsh="cat ~/.zshrc"
 alias x="exit"
 alias c="clear"
-alias aptup="sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade"
-alias en="emacs -nw"
 
-## helpful for hacking
-rustscan='sudo docker run -it --rm --name rustscan rustscan/rustscan'
-
-# Functions
-
-## ergonomic extracting (stolen from the internet)
+# stackoverflow somewhere
 function extract {
  if [ -z "$1" ]; then
     # display usage if no parameters given
